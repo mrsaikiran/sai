@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <link rel="stylesheet" href="infobyte.css">
+      </head>
+    <body>
+        <div>
+         <div class="cardsection">
+            <h1>
+                SUNDRA PICHAI <br>
+                Chief Executive Officer of Google
+            </h1>
+         </div>
+         <div class="bodysection" >
+                <div class="imgsection">
+                <img src="sun2.jpeg">
+                </div>
+
+         </div>
+         <div class="bottomsection">
+            <p>
+                Sundar Pichai is the CEO of Google and Alphabet.<br>
+                 He led the development of the Google Toolbar and Google Chrome.<br>
+                Pichai helped launch the Android operating system.<br>
+                 Sundar Pichai represented Google during congressional hearings on the technology industry's practice of data collection.<hr>
+            </p>
+            <h1 class="headsection">
+                THANKYOU
+            </h1>
+         </div>
+        </div>
+        
+    </body>
+</html>
+
+*{
+    padding: 0px;
+    margin:0px;
+}
+.cardsection{
+    background-color:black;
+    color: white;
+    text-align: center;
+    background-size: cover 50%;
+    padding: 10%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+.bodysection{
+    background-color: white;
+    color: black;
+    background-size: cover 50%;
+
+}
+.textsection{
+    text-align: left;
+    font-size: medium;
+    font-style: normal;
+    font-weight:bold;
+    display: flex;
+    justify-content: center;
+
+    
+    
+}
+.imgsection{
+    height: 50%;
+    size: cover ;
+}
+.bottomsection{
+    background-color: black;
+    color: white;
+    background-size: cover;
+    padding-left: 15%;
+}
+.headsection{
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+    text-decoration: underline;
+}
